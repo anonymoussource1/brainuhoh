@@ -4,5 +4,5 @@
 - => Decrement byte at data pointer by 1
 . => Output byte at current data pointer location
 , => Accepts input byte and stores at current data pointer location
-[ => If byte at current data pointer location is 0, jump to matching ]
+[ => If byte at current data pointer location is 0, jump to byte after matching ]
 ] => if byte at current data pointer location is non-0, jump to byte after matching [
